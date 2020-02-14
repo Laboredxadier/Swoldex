@@ -68,7 +68,7 @@ function createOffensiveInformation(type, main) {
     containerO.appendChild(noEffectList);
     for (let typeK in types) {
         if (types[typeK].immunities.includes(type.name.toLowerCase())) {
-            strongAgainstList.appendChild(createTypeBox(typeK));
+            noEffectList.appendChild(createTypeBox(typeK));
         }
     }
     if (noEffectList.children.length == 1) {
