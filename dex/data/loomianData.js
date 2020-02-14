@@ -465,7 +465,7 @@ var loomians = {
             speed: 119
         },
         evolvesFrom: "Stozap",
-        moveset: ["Anient Roar"]
+        moveset: ["Ancient Roar"]
     },
  
     twilat: {
@@ -1686,7 +1686,9 @@ for (let key in loomians) {
             let move = loomians[loomian.evolvesFrom.toLowerCase()].moveset[key2];
             loomian.moveset.push(move);
         }
-        loomian.moveset.push("Dodge");
-        loomian.moveset.sort();
     }
+    if (!loomian.moveset.includes("Dodge")) {
+        loomian.moveset.push("Dodge");
+    }
+    loomian.moveset.sort();
 }
