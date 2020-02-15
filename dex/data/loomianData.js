@@ -1515,7 +1515,7 @@ var loomians = {
         sAbility: ["Tone Deaf"],
         weight: 57,
         image: "https://vignette.wikia.nocookie.net/loomian-legacy/images/3/35/Cafnote-F-model.png/revision/latest?cb=20191209053448",
-        tinyImage: "",
+        tinyImage: "https://media.discordapp.net/attachments/656324745817751564/678140109815808010/cafnotef.png",
         baseStats: {
             hp: 60,
             energy: 60,
