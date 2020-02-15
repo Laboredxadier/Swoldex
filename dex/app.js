@@ -20,6 +20,12 @@ function load() {
     $(document).ready(function () {
         $("select").select2();
     });
+    $(document).on("change", "select", function() {
+        let selected = this.options[this.selectedIndex];
+        link.innerHTML = "Go to " + selected.text;
+        link.href = basePath + "/dex/" + this.value + "/" + splitString(selected.text);
+        link.style.visibility = "visible";
+    });
     main.appendChild(searchBar);   
 
     let data = [];
@@ -45,6 +51,7 @@ function load() {
         let option = new Option(data[key], dataTypes[data[key]]);
         searchBar.options.add(option);
     }
+    $("select").val("");
 
     let container = document.createElement("div");
     container.style.marginTop = "1em";
@@ -52,13 +59,6 @@ function load() {
     link.style.visibility = "hidden";
     container.appendChild(link);
     main.appendChild(container);
-    $(document).on("change", "select", function() {
-        let selected = this.options[this.selectedIndex];
-        link.innerHTML = "Go to " + selected.text;
-        link.href = basePath + "/dex/" + this.value + "/" + splitString(selected.text);
-        link.style.visibility = "visible";
-    });
-
     main.appendChild(credits);
 }
 
