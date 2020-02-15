@@ -577,6 +577,7 @@ function createLoomianStatRow(loomian, loomianRow) {
     spdRow.classList = "loomianRowStat";
 
     loomianRow.appendChild(hpRow);
+    loomianRow.appendChild(energyRow);
     loomianRow.appendChild(atkMRow);
     loomianRow.appendChild(defMRow);
     loomianRow.appendChild(atkRRow);
