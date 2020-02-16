@@ -279,6 +279,11 @@ var abilities = {
         description: "On switch-in, this Loomian lowers the Melee Attack of adjacent opponents by 1 stage."
     },
 
+    territorial: {
+        name: "Territorial",
+        description: "This Loomian's moves have their power boosted by 25% when attacking Loomians of the same gender, but are 25% weaker against Loomians of the opposite gender."
+    },
+
     thrivingPace: {
         name: "Thriving Pace",
         description: "If this Loomian is statused, its Speed is 1.5x; ignores Speed drop from paralysis."
