@@ -262,7 +262,7 @@ var moves = {
         aoe: false,
         contact: false,
         sound: false,
-        description: "Fool your opponent into thinking you are in distress, harshly lowering their Melee Defense.",
+        description: "Fool your opponent into thinking you are in distress, harshly lowering their Ranged Defense.",
     },
 
     chaseDown: {
