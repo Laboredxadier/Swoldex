@@ -130,7 +130,7 @@ var loomians = {
             speed: 60
         },
         evolvesFrom: "Reptide",
-        moveset: ["Flash Pulse"]
+        moveset: ["Flash Pulse", "Flash n Flee"]
     },
  
     fevine: {
@@ -219,7 +219,7 @@ var loomians = {
             speed: 60
         },
         evolvesTo: "Torprey",
-        moveset: ["Pounce", "Stare", "Shine", "Growl", "Peck", "Luster Loot", "Cyclone Slam", "Power Focus", "Gamma Pulse", "Air Blade", "Nosedive", "Raging Howl"]
+        moveset: ["Pounce", "Stare", "Shine", "Growl", "Peck", "Luster Loot", "Cyclone Slam", "Power Focus", "Gamma Pulse", "Air Blade", "Nosedive", "Raging Howl", "Flash n Flee"]
     },
  
     torprey: {
@@ -531,7 +531,7 @@ var loomians = {
             speed: 91
         },
         evolvesFrom: "Twilat",
-        moveset: ["Luminous Roar", "Disperse", "Raging Howl"]
+        moveset: ["Luminous Roar", "Disperse", "Raging Howl", "Flash n Flee"]
     },
  
     tiklipse: {
@@ -952,7 +952,7 @@ var loomians = {
             speed: 67
         },
         evolvesTo: "Eleguana",
-        moveset: ["Static Shock", "Stare", "Spare", "Shine", "Dodge", "Tase", "Light Dash", "Energize", "Examine", "Earthquake", "Luster Loot", "Thunderstrike"]
+        moveset: ["Static Shock", "Stare", "Spare", "Shine", "Dodge", "Tase", "Light Dash", "Energize", "Examine", "Earthquake", "Luster Loot", "Thunderstrike", "Flash n Flee"]
     },
  
     eleguana: {
@@ -1085,7 +1085,7 @@ var loomians = {
             speed: 47
         },
         evolvesFrom: "Kabunga",
-        moveset: ["Wonder Herb", "Life Drain", "Poison", "Sap Plant", "Photosynthesis", "Energy Gift", "Health Gift"]
+        moveset: ["Wonder Herb", "Life Drain", "Poison", "Sap Plant", "Photosynthesis", "Energy Gift", "Health Gift", "Hypnotize"]
     },
  
     chartiki: {
@@ -1128,7 +1128,7 @@ var loomians = {
             defenseR: 64,
             speed: 89
         },
-        moveset: ["Brainwash", "Dawdle", "Mind's Eye", "Aim", "Swipe", "Quick Pounce", "Peace of Mind", "Foul Chant", "Elemental Burst", "Energy Gift", "Health Gift"]
+        moveset: ["Brainwash", "Dawdle", "Mind's Eye", "Aim", "Swipe", "Quick Pounce", "Peace of Mind", "Foul Chant", "Elemental Burst", "Energy Gift", "Health Gift", "Flabbergast"]
     },
  
     rakrawla: {
@@ -1613,7 +1613,7 @@ var loomians = {
             defenseR: 64,
             speed: 123
         },
-        moveset: ["Sting", "Squawk", "Peck", "Corrode", "Stretch", "Slime", "Muck Blast", "Gobble Goop", "Energy Gift", "Health Gift", "Poison", "Provoke", "Wonder Herb"]
+        moveset: ["Sting", "Squawk", "Peck", "Corrode", "Stretch", "Slime", "Muck Blast", "Gobble Goop", "Energy Gift", "Health Gift", "Poison", "Provoke", "Wonder Herb", "Hypnotize"]
     },
  
     icigool: {
@@ -1633,7 +1633,51 @@ var loomians = {
             defenseR: 81,
             speed: 39
         },
-        moveset: ["Startle", "Snowdozer", "Chomp", "Gain Drain", "Chilly Chomp", "Phantom Slash", "Mega Chomp", "Impersonate", "Blaze Chomp", "Energy Gift", "Health Gift", "Thunder Chomp"]
+        moveset: ["Startle", "Snowdozer", "Chomp", "Gain Drain", "Chilly Chomp", "Phantom Slash", "Mega Chomp", "Impersonate", "Blaze Chomp", "Energy Gift", "Health Gift", "Thunder Chomp", "Hypnotize"]
+    },
+
+    pyramind: {
+        name: "Pyramind",
+        number: 74,
+        types: ["Mind"],
+        abilities: ["Idiosyncratic", "Temper"],
+        sAbility: ["Contact Curse"],
+        weight: 113,
+        image: "https://vignette.wikia.nocookie.net/loomian-legacy/images/4/43/Pyramind-model.png/revision/latest?cb=20200314022909",
+        tinyImage: "https://vignette.wikia.nocookie.net/loomian-legacy/images/b/b0/Pyramind-menu.png/revision/latest?cb=20200312235600",
+        baseStats: {
+            hp: 88,
+            energy: 60,
+            attack: 45,
+            defense: 69,
+            attackR: 84,
+            defenseR: 99,
+            speed: 35
+        },
+        evolvesTo: "Pharoglyph", 
+        moveset: ["Brainwash", "Mind's Eye", "Rant", "Return to Sender", "Boulder Blast", "Peace of Mind", "Spectral Burst", "Flabbergast", "Bane of Haste", "Dark Surge", "Phantom Slash", "Provoke", "Mud Spatter"]
+    },
+
+    pharoglyph: {
+        name: "Pharoglyph",
+        number: 75,
+        types: ["Mind"],
+        abilities: ["Idiosyncratic", "Temper"],
+        sAbility: ["Contact Curse"],
+        weight: 166,
+        image: "https://vignette.wikia.nocookie.net/loomian-legacy/images/5/57/Pharoglyph-model.png/revision/latest?cb=20200310213001",
+        tinyImage: "https://vignette.wikia.nocookie.net/loomian-legacy/images/2/2d/Pharoglyph-menu.png/revision/latest?cb=20200312234208",
+        baseStats: {
+            hp: 88,
+            energy: 95,
+            attack: 50,
+            defense: 50,
+            attackR: 120,
+            defenseR: 101,
+            speed: 106
+        },
+        evolvesFrom: "Pyramind",
+        moveset: ["Memorize", "Hop Kick", "Cerebral Slash"]
     },
  
     duskit: {
@@ -1654,7 +1698,7 @@ var loomians = {
             defenseR: 81,
             speed: 109
         },
-        moveset: ["Startle", "Final Ruse", "Brainwash", "Stupefy", "Return to Sender", "Oppress", "Spectral Burst", "Peace of Mind", "Phantom Slash", "Chase Down", "Dark Surge"]
+        moveset: ["Startle", "Final Ruse", "Brainwash", "Stupefy", "Return to Sender", "Oppress", "Spectral Burst", "Peace of Mind", "Phantom Slash", "Chase Down", "Dark Surge", "Flabbergast", "Hypnotize"]
     },
  
     ikazune: {
@@ -1675,7 +1719,7 @@ var loomians = {
             defenseR: 78,
             speed: 74
         },
-        moveset: ["Tase", "Singe", "Static Shock", "Thunder Chomp", "Blaze Chomp", "Electroburst", "Fire Breath", "Power Focus", "Thunder Crash", "Energize"]
+        moveset: ["Tase", "Singe", "Static Shock", "Thunder Chomp", "Blaze Chomp", "Electroburst", "Fire Breath", "Power Focus", "Thunder Crash", "Energize", "Flash n Flee"]
     },
 };
 

@@ -84,6 +84,11 @@ var abilities = {
         description: "This Loomian does not flinch."
     },
 
+    contactCurse: {
+        name: "Contact Curse",
+        description: "When an opponent makes contact with this Loomian, they lose some energy."
+    },
+
     coursingVenom: {
         name: "Coursing Venom",
         description: "This Loomian's Toxic-type attacks do 1.5x damage if hit by one Toxic-type move; Toxic immunity."
@@ -132,6 +137,11 @@ var abilities = {
     hasty: {
         name: "Hasty",
         description: "This Loomian's Melee Attack is 1.5x and accuracy of its melee attacks is 0.8x."
+    },
+
+    idiosyncratic: {
+        name: "Idiosyncratic",
+        description: "This Loomian's Melee and Ranged stats are swapped compared to other members of their species."
     },
 
     illuminate: {

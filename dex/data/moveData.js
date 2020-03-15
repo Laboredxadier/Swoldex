@@ -83,6 +83,19 @@ var moves = {
         description: "Trick your opponent into letting their guard down, then attack when they least expect it. This attack almost never misses.",
     },
 
+    baneOfHaste: {
+        name: "Bane of Haste",
+        power: 0,
+        type: "Ancient",
+        mr: "Support",
+        ec: 50,
+        accuracy: "N/A",
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Cast an ancient spell to cause the slowest to move first, and the quickest to move last. Lasts 4 turns.",
+    },
+
     battleHorn: {
         name: "Battle Horn",
         power: 0,
@@ -250,6 +263,19 @@ var moves = {
         contact: false,
         sound: false,
         description: "Surprise the opponent by ambushing them with uprooted shrubbery. This may cause them to flinch.",
+    },
+
+    cerebralSlash: {
+        name: "Cerebral Slash",
+        power: 70,
+        type: "Mind",
+        mr: "Melee",
+        ec: 36,
+        accuracy: 1,
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Swipe at the target with metaphysical claws. Lands critical hits more often.",
     },
 
     charade: {
@@ -577,6 +603,19 @@ var moves = {
         description: "Shroud yourself in fire and charge into the target. May also burn the target.",
     },
 
+    flabbergast: {
+        name: "Flabbergast",
+        power: 70,
+        type: "Mind",
+        mr: "Ranged",
+        ec: 36,
+        accuracy: 1,
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Attack the opponent's mind by telepathically flooding it with confusing ideas and imagery. Has a small chance to lower their Ranged Attack.",
+    },
+
     flamingKick: {
         name: "Flaming Kick",
         power: 85,
@@ -588,6 +627,19 @@ var moves = {
         contact: true,
         sound: false,
         description: "Launch yourself towards the opponent with a fiery kick. Lands critical hits more often. May also burn the target.",
+    },
+
+    flashnFlee: {
+        name: "Flash n Flee",
+        power: 40,
+        type: "Mind",
+        mr: "Ranged",
+        ec: 50,
+        accuracy: 1,
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Blast the opponent with blinding light, and then retreat from battle to allow an ally to take your place.",
     },
 
     flashPulse: {
@@ -837,6 +889,19 @@ var moves = {
         description: "Hack at the opponent with sharp claws. Lands critical hits more often.",
     },
 
+    hypnotize: {
+        name: "Hypnotize",
+        power: 0,
+        type: "Mind",
+        mr: "Support",
+        ec: 25,
+        accuracy: 0.75,
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Lull the target away into a deep slumber.",
+    },
+
     icicleTrap: {
         name: "Icicle Trap",
         power: 0,
@@ -1017,6 +1082,19 @@ var moves = {
         contact: true,
         sound: false,
         description: "Bite the opponent with a powerful jaw and sharp fangs. May also make them flinch.",
+    },
+
+    memorize: {
+        name: "Memorize",
+        power: 0,
+        type: "Mind",
+        mr: "Support",
+        ec: 25,
+        accuracy: "N/A",
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Learn how to use the last move executed by the target.",
     },
 
     mindsEye: {

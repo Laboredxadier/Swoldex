@@ -1,7 +1,7 @@
 var types = {
     typeless: {
         name: "Typeless",
-        weaknesses: ["mind"],
+        weaknesses: ["mind", "brawler"],
         resistances: [],
         immunities: [],
         color: "#a2a7a8"
@@ -27,7 +27,7 @@ var types = {
         name: "Plant",
         weaknesses: ["fire", "ice", "dark", "bug", "toxic"],
         resistances: ["plant", "water", "earth", "electric", "light"],
-        immunities: [],
+        immunities: ["light"],
         color: "#68A94F"
     },
 
@@ -42,7 +42,7 @@ var types = {
     ice: {
         name: "Ice",
         weaknesses: ["fire", "metal", "brawler"],
-        resistances: ["ice", "air"],
+        resistances: ["ice", "air", "typeless"],
         immunities: [],
         color: "#ABFFFF"
     },
@@ -74,15 +74,15 @@ var types = {
     bug: {
         name: "Bug",
         weaknesses: ["ice", "air", "brawler"],
-        resistances: ["earth", "dark"],
+        resistances: ["earth", "dark", "plant", "bug"],
         immunities: [],
         color: "#B6D7A8"
     },
 
     metal: {
         name: "Metal",
-        weaknesses: ["fire", "electric", "earth"],
-        resistances: ["air", "bug", "metal", "ancient", "typeless"],
+        weaknesses: ["fire", "electric", "earth", "brawler"],
+        resistances: ["air", "bug", "metal", "ancient", "typeless", "ice", "mind"],
         immunities: [],
         color: "#99ACBD"
     },
@@ -106,7 +106,7 @@ var types = {
     spirit: {
         name: "Spirit",
         weaknesses: ["light", "ancient", "spirit"],
-        resistances: ["dark", "toxic"],
+        resistances: ["dark", "toxic", "electric", "typeless"],
         immunities: ["brawler"],
         color: "#C6C6C6"
     },
@@ -114,7 +114,7 @@ var types = {
     mind: {
         name: "Mind",
         weaknesses: ["dark", "bug", "spirit"],
-        resistances: ["light", "mind"],
+        resistances: ["light", "mind", "brawler"],
         immunities: [],
         color: "#C17BA0"
     },
@@ -129,7 +129,7 @@ var types = {
 
     brawler: {
         name: "Brawler",
-        weaknesses: ["air", "spirit", "mind"],
+        weaknesses: ["air", "spirit", "mind", "toxic"],
         resistances: ["bug", "ice"],
         immunities: [],
         color: "#C8441E"
