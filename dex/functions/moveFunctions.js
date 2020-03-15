@@ -169,6 +169,9 @@ function splitString(string) {
     for (let i = 1; i < nameSplit.length; i++) {
         final += nameSplit[i].charAt(0) + nameSplit[i].substring(1).toLowerCase();
     }
+    if (final.indexOf("'") != -1) {
+        final = final.substr(0, final.indexOf("'")) + final.susbtr(final.indexOf("'") + 1);
+    }
     return final;
 }
 
