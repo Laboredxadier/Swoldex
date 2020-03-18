@@ -101,12 +101,12 @@ var moves = {
         power: 0,
         type: "Typeless",
         mr: "Support",
-        ec: 60,
+        ec: 50,
         accuracy: "N/A",
         aoe: false,
         contact: false,
         sound: true,
-        description: "Raises your Melee Attack and Melee Defense, and cure the status ailments of any Loomian on the field.",
+        description: "Raises your Melee Attack and Melee Defense, and cure the status ailments of any Loomian on the field (only on the first use).",
     },
 
     beastsSlumber: {
@@ -574,7 +574,7 @@ var moves = {
         aoe: false,
         contact: false,
         sound: false,
-        description: "Prepare for the worst, readying yourself to take your opponent down if you are knocked out before your next turn.",
+        description: "Prepare for the worst, readying yourself to take your opponent down if you are knocked out before your next turn. Fails if used consecutively.",
     },
 
     fireBreath: {
@@ -632,7 +632,7 @@ var moves = {
     flashnFlee: {
         name: "Flash n Flee",
         power: 40,
-        type: "Mind",
+        type: "Light",
         mr: "Ranged",
         ec: 50,
         accuracy: 1,
@@ -644,10 +644,10 @@ var moves = {
 
     flashPulse: {
         name: "Flash Pulse",
-        power: 75,
+        power: 85,
         type: "Light",
         mr: "Ranged",
-        ec: 35,
+        ec: 42,
         accuracy: 1,
         aoe: true,
         contact: false,
@@ -1632,10 +1632,10 @@ var moves = {
 
     savageGreed: {
         name: "Savage Greed",
-        power: 75,
+        power: 95,
         type: "Ancient",
         mr: "Melee",
-        ec: 45,
+        ec: 52,
         accuracy: 0.9,
         aoe: false,
         contact: true,
