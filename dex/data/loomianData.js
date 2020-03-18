@@ -1100,10 +1100,10 @@ var loomians = {
         baseStats: {
             hp: 98,
             energy: 104,
-            attack: 55,
-            defense: 55,
+            attack: 15,
+            defense: 75,
             attackR: 103,
-            defenseR: 55,
+            defenseR: 75,
             speed: 62
         },
         evolvesFrom: "Kabunga",
@@ -1585,9 +1585,9 @@ var loomians = {
         baseStats: {
             hp: 92,
             energy: 75,
-            attack: 62,
+            attack: 42,
             defense: 73,
-            attackR: 114,
+            attackR: 134,
             defenseR: 102,
             speed: 62
         },  
