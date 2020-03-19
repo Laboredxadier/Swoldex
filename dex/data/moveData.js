@@ -1565,6 +1565,19 @@ var moves = {
         description: "Launch three fireballs at the target, each having a small chance to burn them.",
     },
 
+    rejuvenate: {
+        name: "Rejuvenate",
+        power: 0,
+        type: "Typeless",
+        mr: "Support",
+        ec: 72,
+        accuracy: "N/A",
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Focus your energy on your own well-being to restore half of your Health."
+    },
+
     repeatingTune: {
         name: "Repeating Tune",
         power: 25,

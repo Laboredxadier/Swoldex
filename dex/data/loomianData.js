@@ -130,7 +130,7 @@ var loomians = {
             speed: 60
         },
         evolvesFrom: "Reptide",
-        moveset: ["Flash Pulse", "Flash n Flee"]
+        moveset: ["Flash Pulse", "Flash n Flee", "Rejuvenate"]
     },
  
     fevine: {
@@ -264,7 +264,7 @@ var loomians = {
             speed: 75
         },
         evolvesFrom: "Torprey",
-        moveset: ["Holy Slash"]
+        moveset: ["Holy Slash", "Rejuvenate"]
     },
  
     vambat: {
@@ -731,7 +731,7 @@ var loomians = {
             speed: 65
         },
         evolvesFrom: "Pyder",
-        moveset: ["Poison", "Venom Chomp", "Slime"]
+        moveset: ["Poison", "Venom Chomp", "Slime", "Rejuvenate"]
     },
  
     antsee: {
@@ -1063,7 +1063,7 @@ var loomians = {
             speed: 86
         },
         evolvesTo: ["WikiWiki", "Chartiki"],
-        moveset: ["Strike", "Brace", "Petal Pummel", "Pine Shot", "Bush Whack", "Muck Blast", "Provoke", "Scapegoat", "Toxic Spores"]
+        moveset: ["Strike", "Brace", "Petal Pummel", "Pine Shot", "Bush Whack", "Muck Blast", "Provoke", "Scapegoat", "Toxic Spores", "Rejuvenate"]
     },
  
     wikiwiki: {
@@ -1150,7 +1150,7 @@ var loomians = {
             speed: 43
         },
         evolvesTo: "Sedimars",
-        moveset: ["Burrow", "Gnaw", "Boulder Blast", "Swipe", "Mud Spatter", "Examine", "Chomp", "Blaze Chomp", "Body Slam", "Chase Down", "Thunder Chomp"]
+        moveset: ["Burrow", "Gnaw", "Boulder Blast", "Swipe", "Mud Spatter", "Examine", "Chomp", "Blaze Chomp", "Body Slam", "Chase Down", "Thunder Chomp", "Rejuvenate"]
     },
  
     sedimars: {
@@ -1393,7 +1393,7 @@ var loomians = {
             speed: 62
         },
         evolvesTo: ["Krakaloa", "Volkaloa"],
-        moveset: ["Singe", "Brace", "Spare", "Swipe", "Dodge", "Slash", "Power Focus", "Fire Slam", "Burn Up", "Earthquake", "Fire Breath", "Raging Tackle", "Mud Spatter"]
+        moveset: ["Singe", "Brace", "Spare", "Swipe", "Dodge", "Slash", "Power Focus", "Fire Slam", "Burn Up", "Earthquake", "Fire Breath", "Raging Tackle", "Mud Spatter", "Rejuvenate"]
     },
  
     krakaloa: {
