@@ -83,7 +83,7 @@ var moves = {
         description: "Trick your opponent into letting their guard down, then attack when they least expect it. This attack almost never misses.",
     },
 
-    baneOfHaste: {
+    baneofHaste: {
         name: "Bane of Haste",
         power: 0,
         type: "Ancient",
