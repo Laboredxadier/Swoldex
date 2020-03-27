@@ -86,7 +86,7 @@ var abilities = {
 
     contactCurse: {
         name: "Contact Curse",
-        description: "When an opponent makes contact with this Loomian, they lose some energy."
+        description: "When an opponent makes contact with this Loomian, they lose 1/16 of their maximum energy."
     },
 
     coursingVenom: {
