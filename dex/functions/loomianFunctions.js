@@ -216,7 +216,7 @@ function createDescription(loomian, main) {
 
     if (setData != undefined) {
         let writtenBy = document.createElement("span");
-        writtenBy.innerHTML = setData.credits;
+        writtenBy.innerHTML = "<i>" + setData.writtenBy + "</i>";
         main.appendChild(writtenBy);
 
         let overviewHeader = document.createElement("h2");
@@ -360,9 +360,9 @@ function createDescription(loomian, main) {
         }
 
         let optionsHeader = document.createElement("h2");
-        optionsHeader.innerHTML = "Other Options";
+        optionsHeader.innerHTML = "Team Options";
         let options = document.createElement("p");
-        options.innerHTML = setData.otherOptions;
+        options.innerHTML = setData.teamOptions;
         main.appendChild(optionsHeader);
         main.appendChild(options);
 
@@ -372,6 +372,13 @@ function createDescription(loomian, main) {
         counters.innerHTML = setData.checksAndCounters;
         main.appendChild(countersHeader);
         main.appendChild(counters);
+
+        let creditsHeader = document.createElement("h2");
+        creditsHeader.innerHTML = "Credits";
+        let credits = document.createElement("p");
+        credits.innerHTML = setData.credits;
+        main.appendChild(creditsHeader);
+        main.appendChild(credits);
 
     } else {
         let container = document.createElement("div");
