@@ -576,7 +576,7 @@ function createLoomianStatRow(loomian, loomianRow) {
     let spdRow = document.createElement("td");
     let spdText = document.createElement("span");
     let spdValue = document.createElement("span");
-    spdText.innerHTML = "SPD";
+    spdText.innerHTML = "SPE";
     spdValue.innerHTML = loomian.baseStats.speed;
     spdRow.appendChild(spdText);
     spdRow.appendChild(document.createElement("br"));

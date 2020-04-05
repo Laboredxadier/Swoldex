@@ -53,5 +53,38 @@ var sets = {
         <br><br><b>Brawler Types:</b> Tahtab has the offensive power to 2HKO Himbrr when using Power Cuffs and a Brawny personality. It can easily whittle down Himbrr with a mixed attacking set, healing off any damage it may have taken with Life Drain. Ursoul threatens to remove Himbrr’s Health Amulet with slap down and whittles it down with Quick Punches.`,
         writtenBy: "Written by: Buna",
         credits: `<b>Written By:</b> Buna <br><b>Reviewed By:</b> SrRojo`
+    },
+
+    zuelong: {
+        name: "Zuelong",
+        overview: `Zuelong is a tried-and-true late-game cleaner that is capable of providing a unique form of momentum for its teammates. As one of the fastest Loomians in the game, it is capable of outspeeding almost every offensive threat and punishing teams with a lack of a defensive backbone. Its excellent offensive typing allows for it to hit a majority of the metagame for at least neutral damage which can help pick off weakened foes with ease. Unfortunately, without any way to strengthen its attacks during a battle, it can be hard to deal any significant damage with Zuelong while its checks are still healthy. With many of Zuelong's best checks having either superb bulk or reliable recovery, Zuelong struggles heavily to make dents on bulkier teams without reliable team support.`,
+        sets: [
+            {
+                setName: "Offensive Pivot",
+                ability: "Brute Force",
+                items: ["Ancient Essence", "Electric Essence"],
+                personalities: ["Very Nimble", "Tender", "Foolish"],
+                evs: ["R Atk 200", "Spe 200", "M Atk 80", "Eng 20"],
+                moves: {
+                    move1: ["Elemental Burst"],
+                    move2: ["Thunderstrike"],
+                    move3: ["Ancient Roar"],
+                    move4: ["Chilly Chomp"]
+                },
+                detail: `200 Speed and a Very Nimble Personality makes Zuelong the second-fastest unboosted Loomian in the game (right after Very Nimble Gobbidemic). This allows for Zuelong to pick off as many Loomians during the late-game as possible. Max Ranged Attack is needed to ensure that Zuelong is dealing as much damage as possible. 20 Energy Investment is used to guarantee Zuelong can perform any combination of Elemental Burst and Thunderstrike a total of 5 times before having to Wait/Rest. The remaining TPs are poured into Melee Attack to strengthen the power of Chilly Chomp or invested into HP if Dodge is used instead. Elemental Burst is Zuelong's most versatile STAB attack as it is only resisted by Light and Metal. Thunderstrike provides helpful coverage by dealing with the aforementioned Metal types as well as opposing Water and Air types. Ancient Roar turns Zuelong into a fast pivot that can provide momentum for teammates. Chilly Chomp, when boosted by Brute Force, allows Zuelong to break past certain Plant types that would otherwise give it trouble such as Florant and Gastroak. Dodge can be used as an alternative to Chilly Chomp to mitigate Energy usage while wasting the opponent's Energy.`
+            }
+        ],
+        teamOptions: `Loomians with access to Chase Down such as Ursoul and Searknight make for excellent partners as they can effectively trap the myriad of Light and Plant types that give Zuelong trouble. In return, Zuelong is capable of luring in these Light and Plant types by using Ancient Roar, forcing Chase Down 50/50s. Tahtab also synergizes well offensively with Zuelong as it can shut down Eleguana and Himbrr while Zuelong handles Loomians such as Vesperatu and Avitross, effectively covering their respective weaknesses
+        <br><br><b>Other Options:</b> Power Cuffs is an alternative item that boosts both of Zuelong's STAB attacks. The main drawback to this is the increased Energy cost of all attacks which forces Zuelong to Wait/Rest early. A Smart/Nimble set with Very Foolish or Very Frail can also be used to deal additional damage while still outspeeding relevant threats such as Very Nimble Tahtab.`,
+        checksAndCounters: `<b>Eleguana:</b> Eleguana resists both of Zuelong's STABs, sports a great set of natural bulk, and runs enough Melee Defense to shrug off Chilly Chomps. Eleguana also poses an immediate threat to Zuelong with Gamma Pulse.
+        
+        <br><br><b>Priority Users:</b> Loomians with access to priority such as Ursoul and Vesperatu can pick off weakened Zuelongs without giving them a chance to attack or pivot.
+        
+        <br><br><b>Earth Types:</b> Sedimars and Himbrr are both able to comfortably switchin to Zuelong's Elemental Burst and threaten it out with a STAB earth attack. Heavy Shield Boarrok can also check Zuelong as it avoids a 2HKO from Elemental Burst.
+        
+        <br><br><b>R Def Walls:</b> Without Chilly Chomp, plant types such as Florant and Gastroak are capable of reliably switching into Zuelong. Wiki-Wiki, in particular, can swap into Zuelong reliably even with Chilly Chomp.`,
+        writtenBy: "Written By: SrRojo",
+        credits: `<b>Written By:</b> SrRojo`
     }
+    
 }
