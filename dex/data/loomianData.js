@@ -1504,7 +1504,7 @@ var loomians = {
             speed: 65
         },
         evolvesFrom: "Chrysite",
-        moveset: ["Beast's Slumber", "Primal Slash"]
+        moveset: ["Beast's Slumber", "Primal Slash", "Sharpen"]
     },
  
     cafnotef: {
