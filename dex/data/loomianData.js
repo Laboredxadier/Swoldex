@@ -523,7 +523,7 @@ var loomians = {
         tinyImage: "https://vignette.wikia.nocookie.net/loomian-legacy/images/1/19/Luxoar-menu.png/revision/latest?cb=20190725230119",
         baseStats: {
             hp: 75,
-            energy: 68,
+            energy: 75,
             attack: 51,
             defense: 68,
             attackR: 96,
