@@ -145,10 +145,10 @@ var loomians = {
         baseStats: {
             hp: 45,
             energy: 51,
-            attack: 76,
-            defense: 40,
+            attack: 71,
+            defense: 44,
             attackR: 50,
-            defenseR: 35,
+            defenseR: 36,
             speed: 64
         },
         evolvesTo: "Felver",
